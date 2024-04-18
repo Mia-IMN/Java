@@ -12,13 +12,21 @@ public class Arithmetic {
         System.out.println("Enter third number c: ");
         c = in.nextInt();
 
-        // sum = a + b + c;
-        // if (a > b && b > c){
-        //         largest = a;
-        //         smallest = c;
-        //         System.out.println("");
-        //     }
-        // else if(b > a s)
-        // }
+        largest = a;
+        smallest = a;
+
+        if (b > largest) {
+            largest = b;
+            if (b > c){
+                smallest = c; 
+            }
+        }
+        if (c > largest){
+            largest = c;
+            smallest = a;
+            }
+
+        System.out.printf("The largest of all 3 numbers is: %d\n", largest);
+        System.out.printf("The smallest of all 3 numbers is: %d", smallest);
     }
 }
