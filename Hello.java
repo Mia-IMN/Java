@@ -4,6 +4,7 @@ public class Hello {
         String name;
         Scanner input = new Scanner(System.in);
         name = new String(input.nextLine());
-        System.out.printf("Hi %s!", name);   
+        System.out.printf("Hi %s!", name);
+           
     }
 }

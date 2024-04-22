@@ -55,5 +55,7 @@ public class Arithmetic {
         // Printing out the product
         System.out.print("\nThe product of all three is: " + product);
 
+        in.close();
+
     }
 }
