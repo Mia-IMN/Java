@@ -5,9 +5,9 @@ public class ArrayIllustration {
     public static void main(String args[]){
         int sum = 0;
         Scanner in = new Scanner(System.in);
-        int scores[] = new int[11]; //Array declaration
+        int scores[] = new int[10]; //Array declaration
         System.out.println("Enter scores for 10 subjects");
-        for(int i=1; i <= 10; i++){
+        for(int i=0; i <= 10; i++){
             System.out.print("Score " + i + " = ");
             scores[i] = in.nextInt();
             sum += scores[i];
